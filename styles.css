@@ -1,0 +1,245 @@
+*{
+    background-color: #e5ebd7;
+    margin: 0 12px ;
+    
+    
+}
+.job{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 1.2rem;
+}
+.myHeadline{
+
+    display: flex;
+    font-size: 5.1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Noto Serif Display", serif;
+    
+    
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-bottom: 14px;
+}
+
+.portfPic{
+    border-radius: 20%;
+    height: auto;
+    display:block;
+    margin: 0 20px 0 35px;
+   
+
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1.1fr 1.3fr;
+    margin-bottom: 14px;;
+}
+
+
+.heroInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.myIntro{
+    font-size: 1rem;
+    margin-bottom: 0;;
+    margin-left: 20px;
+    padding: 15px;
+}
+.myFlower{
+    display: grid;
+    grid-template-columns: 0.8fr 0.4fr;
+    margin: 0;;
+
+
+}
+.flower{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutMe{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.aboutMe>img{
+    border-radius: 14%;
+    height: 70%;
+    margin-left: 23px;
+  
+}
+
+.aboutMe>p,
+.xpQualifications>P{
+    margin-left: 24px;
+    font-size: 1rem;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+.aboutContainer>h2{
+    margin-bottom: 0;
+    margin-top: 14px;
+    font-size: 4.4rem;
+
+}
+.coffe{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+}
+.me{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+
+}
+.projectContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    margin: 14px;
+    padding: 45px;
+}
+.projDescrpt{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr  ;
+
+}
+.projHeadline{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+.left{
+    display: flex;
+  
+}
+
+.projHeadline>h2{
+    font-size: 4.4rem;
+    
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+
+}
+.proj1{
+    height: 50%;
+}
+
+.proj2{
+    height: 75%;
+}
+.proj3{
+    height: 90%;
+}
+.aProject>img{
+    border-radius: 6%;
+    border: 2px solid white; /* Sets a white border */
+   
+    
+}
+.aProject>p{
+    font-size: 1rem;
+}
+
+.projNum{
+   
+        width: 50px; /* Adjust the width and height to change the size of the circle */
+        height: 50px;
+        border: 2px solid black; /* Sets a black border */
+        border-radius: 50%; /* Makes the div circular */
+        color: black; /* Sets the text color to black */
+        font-size: 1rem;
+        text-align: center; /* Center-aligns the content horizontally */
+        line-height: 50px; /* Center-aligns the content vertically */
+        background-color: transparent; /* Removes the fill color */
+}
+.contactContainer{
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.getInTouch,.contactUS{
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.getInTouch>p{
+    font-size: 1.1rem;
+}
+.getInTouch>h1{
+    margin:12px ;
+    font-size: 3.2rem;
+}
+.getInTouch>h1,
+.getInTouch>p{
+    background-color: white;
+}
+
+.getInTouch{
+    width: 350px; /* Adjust the width and height to change the size of the rect */
+    height: 440px;
+    border: 2px solid black; /* Sets a black border */
+  
+    color: black; 
+    
+
+    text-align: left; 
+    line-height: 50px;
+    background-color: white; 
+
+}
+.contactUS>h2{
+    font-family: "Noto Serif Display", serif;
+    color: red;
+    font-style: italic;
+    font-size: 4.1rem;
+}
+.contactUS>p{
+    font-size: 1.5rem;
+}
+.details{
+    font-weight: bold;
+}
+
+    
+
+
+
+#homePage,
+#aboutPage,
+#projectPage,
+#contactPage{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    font-family: "Poppins", sans-serif;
+}
+    
